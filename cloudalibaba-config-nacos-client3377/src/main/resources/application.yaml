@@ -1,0 +1,9 @@
+server:
+  port: 3377
+
+spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false
+  profiles:
+    active: prod
